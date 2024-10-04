@@ -1,7 +1,7 @@
 const http = require('http');
 
 http.createServer (function(req, res){
-	res.write('New site coming soon...');
+	res.write('There is a brand new application coming here very soon.......');
 	res.end();
 }).listen(3000);
 
